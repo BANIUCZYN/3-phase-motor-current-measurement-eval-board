@@ -44,15 +44,17 @@ The physical verification of the evaluation board was conducted on a dedicated t
 The primary goal of the test bench was to acquire and compare the signal quality from the three different sensing topologies. The captured phase current waveforms (Phase U and Phase W) demonstrate varying levels of high-frequency noise:
 
 * **Method a) Resistor placed in lower leg of half-bridge circuit:** Provided the smoothest sinusoidal waveforms with minimal noise.
-* **Method b) Series resistor in phase circuit:** Exhibited moderate high-frequency interference superimposed on the main sine wave.
-* **Method c) Hall effect current sensor:** Resulted in the highest level of signal distortion and noise spikes.
+![Phase current sensing - lower leg resistor](test_bench/test_results/Curr_sens_method_a.png)
 
-*(Insert your waveform plots here, e.g., combining them into a single image)*
-![Waveforms comparison](test_bench/test_results/Waveforms_comparison.png)
+* **Method b) Series resistor in phase circuit:** Exhibited moderate high-frequency interference superimposed on the main sine wave.
+![Phase current sensing - series resistor](test_bench/test_results/Curr_sens_method_b.png)
+
+* **Method c) Hall effect current sensor:** Resulted in the highest level of signal distortion and noise spikes.
+![Phase current sensing - Hall effect](test_bench/test_results/Curr_sens_method_c.png)
 
 ### THD (Total Harmonic Distortion) Analysis
 
-![THD Comparison](test_bench/test_results/THD_comparison.png)
+![THD Comparison](test_bench/test_results/THD_analysis.png)
 
 The visual observation of the waveforms is directly confirmed by the THD analysis. The measured THD values for Phase U and Phase W clearly indicate the performance differences between the topologies:
 * **Method a) Resistor placed in lower leg of half-bridge circuit:** Lowest distortion, ranging between ~0.5% and ~0.7%.
