@@ -1,4 +1,4 @@
-# 3-phase-motor-current-measurement-eval-board
+<img width="724" height="487" alt="image" src="https://github.com/user-attachments/assets/9b864a0e-76f6-4912-b202-25e10b453c45" /># 3-phase-motor-current-measurement-eval-board
 
 <p align="center">
   <kbd>
@@ -50,7 +50,9 @@ The physical verification of the evaluation board was conducted on a dedicated t
 </p>
 
 <p align="center">
-  <img src="test_bench/Test_bench.jpg" alt="Test bench setup" width="800">
+  <kbd>
+    <img src="test_bench/Test_bench.jpg" alt="Test bench setup" width="800">
+  <kbd>
 </p>
 
 ### Phase Current Waveforms Quality
@@ -59,25 +61,33 @@ The primary goal of the test bench was to acquire and compare the signal quality
 * **Method a) Resistor placed in lower leg of half-bridge circuit:** Provided the smoothest sinusoidal waveforms with minimal noise.
 
 <p align="center">
-  <img src="test_bench/test_results/Curr_sens_method_a.png" alt="Phase current sensing - lower leg resistor" width="600">
+  <kbd>
+    <img src="test_bench/test_results/Curr_sens_method_a.png" alt="Phase current sensing - lower leg resistor" width="600">
+  <kbd>
 </p>
 
 * **Method b) Series resistor in phase circuit:** Exhibited moderate high-frequency interference superimposed on the main sine wave.
 
 <p align="center">
-  <img src="test_bench/test_results/Curr_sens_method_b.png" alt="Phase current sensing - series resistor" width="600">
+  <kbd>
+    <img src="test_bench/test_results/Curr_sens_method_b.png" alt="Phase current sensing - series resistor" width="600">
+  <kbd>
 </p>
 
 * **Method c) Hall effect current sensor:** Resulted in the highest level of signal distortion and noise spikes.
 
 <p align="center">
-  <img src="test_bench/test_results/Curr_sens_method_c.png" alt="Phase current sensing - Hall effect" width="600">
+  <kbd>
+    <img src="test_bench/test_results/Curr_sens_method_c.png" alt="Phase current sensing - Hall effect" width="600">
+  <kbd>
 </p>
 
 ### THD (Total Harmonic Distortion) Analysis
 
 <p align="center">
-  <img src="test_bench/test_results/THD_analysis1.png" alt="THD Comparison" width="600">
+  <kbd>
+    <img src="test_bench/test_results/THD_analysis1.png" alt="THD Comparison" width="600">
+  <kbd>
 </p>
 
 The visual observation of the waveforms is directly confirmed by the THD analysis. The measured THD values for Phase U and Phase W clearly indicate the performance differences between the topologies:
