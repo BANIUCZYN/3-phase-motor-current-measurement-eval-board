@@ -1,6 +1,8 @@
 # 3-phase-motor-current-measurement-eval-board
 
-![Finished board assembly](other/Finished_board_assembly.jpg)
+<p align="center">
+  <img src="other/Finished_board_assembly.jpg" alt="Finished board assembly" width="600">
+</p>
 
 Power stage evaluation board designed for comparison of three different phase current measurement methods in terms of quality.
 
@@ -9,7 +11,9 @@ The objective is a hardware and software comparison of three phase current measu
 
 ## Hardware Architecture
 
-![System architecture diagram](hardware/System_architecture_diagram_PL.png)
+<p align="center">
+  <img src="hardware/System_architecture_diagram_PL.png" alt="System architecture diagram" width="600">
+</p>
 
 The project features a custom-designed Printed Circuit Board (PCB) acting as a power stage. Key system parameters include:
 • Microcontroller: STM32F4.
@@ -25,7 +29,9 @@ The board allows for the verification of three different topological concepts:
 
 ## Software and Control
 
-![Control algorithm loop structure](software/firmware/Control_algorithm_loop_structure.png)
+<p align="center">
+  <img src="software/firmware/Control_algorithm_loop_structure.png" alt="Control algorithm loop structure" width="600">
+</p>
 
 The control algorithm was implemented in C using the STM32CubeIDE environment and HAL libraries. The main loop executes:
 • SPWM signal generation (duty cycle calculation).
@@ -37,24 +43,40 @@ Markdown
 
 The physical verification of the evaluation board was conducted on a dedicated test bench.
 
-![Test bench block diagram](test_bench/Test_bench_block_diagram_PL.png)
-![Test bench setup](test_bench/Test_bench.jpg)
+<p align="center">
+  <img src="test_bench/Test_bench_block_diagram_PL.png" alt="Test bench block diagram" width="600">
+</p>
+
+<p align="center">
+  <img src="test_bench/Test_bench.jpg" alt="Test bench setup" width="600">
+</p>
 
 ### Phase Current Waveforms Quality
 The primary goal of the test bench was to acquire and compare the signal quality from the three different sensing topologies. The captured phase current waveforms (Phase U and Phase W) demonstrate varying levels of high-frequency noise:
 
 * **Method a) Resistor placed in lower leg of half-bridge circuit:** Provided the smoothest sinusoidal waveforms with minimal noise.
-![Phase current sensing - lower leg resistor](test_bench/test_results/Curr_sens_method_a.png)
+
+<p align="center">
+  <img src="test_bench/test_results/Curr_sens_method_a.png" alt="Phase current sensing - lower leg resistor" width="600">
+</p>
 
 * **Method b) Series resistor in phase circuit:** Exhibited moderate high-frequency interference superimposed on the main sine wave.
-![Phase current sensing - series resistor](test_bench/test_results/Curr_sens_method_b.png)
+
+<p align="center">
+  <img src="test_bench/test_results/Curr_sens_method_b.png" alt="Phase current sensing - series resistor" width="600">
+</p>
 
 * **Method c) Hall effect current sensor:** Resulted in the highest level of signal distortion and noise spikes.
-![Phase current sensing - Hall effect](test_bench/test_results/Curr_sens_method_c.png)
+
+<p align="center">
+  <img src="test_bench/test_results/Curr_sens_method_c.png" alt="Phase current sensing - Hall effect" width="600">
+</p>
 
 ### THD (Total Harmonic Distortion) Analysis
 
-![THD Comparison](test_bench/test_results/THD_analysis.png)
+<p align="center">
+  <img src="test_bench/test_results/THD_analysis.png" alt="THD Comparison" width="600">
+</p>
 
 The visual observation of the waveforms is directly confirmed by the THD analysis. The measured THD values for Phase U and Phase W clearly indicate the performance differences between the topologies:
 * **Method a) Resistor placed in lower leg of half-bridge circuit:** Lowest distortion, ranging between ~0.5% and ~0.7%.
