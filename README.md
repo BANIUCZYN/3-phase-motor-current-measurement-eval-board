@@ -1,7 +1,9 @@
 # 3-phase-motor-current-measurement-eval-board
 
 <p align="center">
-  <img src="other/Finished_board_assembly.jpg" alt="Finished board assembly" width="600" border="10">
+  <kbd>
+    <img src="other/Finished_board_assembly.jpg" alt="Finished board assembly" width="600">
+  <kbd>
 </p>
 
 Power stage evaluation board designed for comparison of three different phase current measurement methods in terms of quality.
