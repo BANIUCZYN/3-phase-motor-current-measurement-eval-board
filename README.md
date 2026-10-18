@@ -1,4 +1,4 @@
-<img width="724" height="487" alt="image" src="https://github.com/user-attachments/assets/9b864a0e-76f6-4912-b202-25e10b453c45" /># 3-phase-motor-current-measurement-eval-board
+# 3-phase-motor-current-measurement-eval-board
 
 <p align="center">
   <kbd>
