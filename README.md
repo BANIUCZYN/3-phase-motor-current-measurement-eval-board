@@ -7,7 +7,7 @@
 Power stage evaluation board designed for comparison of three different phase current measurement methods in terms of quality.
 
 ## Project Objective
-The objective is a hardware and software comparison of three phase current measurement methods regarding high-frequency interference, impact on current waveforms, and potential applications in PMSM and BLDC motor control.
+The objective was a hardware and software comparison of three phase current measurement methods regarding high-frequency interference, impact on current waveforms, and potential applications in PMSM and BLDC motor control.
 
 ## Hardware Architecture
 
@@ -30,7 +30,7 @@ The board allows for the verification of three different topological concepts:
 ## Software and Control
 
 <p align="center">
-  <img src="software/firmware/Control_algorithm_loop_structure.png" alt="Control algorithm loop structure" width="600">
+  <img src="software/firmware/Control_algorithm_loop_structure.png" alt="Control algorithm loop structure" width="800">
 </p>
 
 The control algorithm was implemented in C using the STM32CubeIDE environment and HAL libraries. The main loop executes:
@@ -44,11 +44,11 @@ Markdown
 The physical verification of the evaluation board was conducted on a dedicated test bench.
 
 <p align="center">
-  <img src="test_bench/Test_bench_block_diagram_PL.png" alt="Test bench block diagram" width="600">
+  <img src="test_bench/Test_bench_block_diagram_PL.png" alt="Test bench block diagram" width="400">
 </p>
 
 <p align="center">
-  <img src="test_bench/Test_bench.jpg" alt="Test bench setup" width="600">
+  <img src="test_bench/Test_bench.jpg" alt="Test bench setup" width="800">
 </p>
 
 ### Phase Current Waveforms Quality
