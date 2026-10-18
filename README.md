@@ -75,7 +75,7 @@ The primary goal of the test bench was to acquire and compare the signal quality
 ### THD (Total Harmonic Distortion) Analysis
 
 <p align="center">
-  <img src="test_bench/test_results/THD_analysis.png" alt="THD Comparison" width="600">
+  <img src="test_bench/test_results/THD_analysis1.png" alt="THD Comparison" width="600">
 </p>
 
 The visual observation of the waveforms is directly confirmed by the THD analysis. The measured THD values for Phase U and Phase W clearly indicate the performance differences between the topologies:
