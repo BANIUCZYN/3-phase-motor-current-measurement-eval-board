@@ -16,10 +16,10 @@ The objective is a hardware and software comparison of three phase current measu
 </p>
 
 The project features a custom-designed Printed Circuit Board (PCB) acting as a power stage. Key system parameters include:
-• Microcontroller: STM32F4.
-• Motor Driver: DRV8332.
-• Main Power Supply: 24V DC.
-• Additional Interfaces: Signal conditioning for Hall effect sensors and an encoder.
+* Microcontroller: STM32F4.
+* Motor Driver: DRV8332.
+* Main Power Supply: 24V DC.
+* Additional Interfaces: Signal conditioning for Hall effect sensors and an encoder.
 
 ## Implemented Measurement Methods
 The board allows for the verification of three different topological concepts:
@@ -34,9 +34,9 @@ The board allows for the verification of three different topological concepts:
 </p>
 
 The control algorithm was implemented in C using the STM32CubeIDE environment and HAL libraries. The main loop executes:
-• SPWM signal generation (duty cycle calculation).
-• Phase current readouts via ADC interfaces.
-• Measurement data transmission via UART interface to a PC application.
+* SPWM signal generation (duty cycle calculation).
+* Phase current readouts via ADC interfaces.
+* Measurement data transmission via UART interface to a PC application.
 
 Markdown
 ## Test Bench and Measurement Results
